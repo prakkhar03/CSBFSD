@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(26, 132, 213);
+}
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+#highlight {
+    background-color: black;
+    padding: 10px;
+}
+.italic {
+    font-style: italic;
+}
