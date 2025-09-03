@@ -1,0 +1,35 @@
+.container {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+    background-color: lightblue;
+}
+.boxmodel1{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid red;
+    margin: 10px;
+    background-color: lightgreen;
+
+}
+.boxmodel2{
+    width: 150px;
+    height: 80px;
+    padding: 5px;
+    border: 2px solid blue;
+    margin: 5px;
+    background-color: lightcoral;
+
+}
+.boxmodel3{
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    border: 1px solid green;
+    margin: 2px;
+    background-color: lightyellow;
+
+}
