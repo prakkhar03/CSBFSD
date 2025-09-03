@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: rgb(26, 132, 213);
 }
 h2{
@@ -16,4 +16,29 @@ p{
 }
 .italic {
     font-style: italic;
+} */
+ div+p{
+    background-color: brown;
+    color:white;
+ }
+ p::after{
+    content: " - ABES Engineering College";
+    color: yellow;
+    background-color: brown ;
+ 
+    font-size: 20px;
 }
+p::before{
+    content: "Welcome to ";
+    color: yellow;
+    background-color: brown ;
+ 
+    font-size: 20px;
+}
+p:nth-child(2){
+    background-color: green;
+ }
+div p:nth-of-type(1){
+    background-color: blue;
+    font-size: smaller;
+ }
